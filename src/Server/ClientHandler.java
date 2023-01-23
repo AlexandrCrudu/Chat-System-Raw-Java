@@ -211,6 +211,16 @@ public class ClientHandler implements Runnable{
         }
     }
 
+    private void handleUnknown() {
+        try {
+            this.bufferedWriter.write("FAIL00 Unknown command");
+            this.bufferedWriter.newLine();
+            this.bufferedWriter.flush();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     private void handleList(){
         try {
             String list = "-";
