@@ -11,6 +11,7 @@
 - Message Encryption: Utilizes RSA for key exchange and AES for encrypting the actual messages, ensuring secure communication.
 - Server Implementation: Employs Java sockets for network communication, handling multiple client connections and facilitating real-time data exchange.
 - Client Implementation: Also uses Java sockets to connect with the server, enabling interactive communication and data transfer.
+- Employes Automated Testing that uses unit tests for each chat feature.
 - Custom Protocol Implementation: Me and my teammate came up with a custom protocol (see chat-protocol.pdf) for all the different message exchanges between the server and the client.
 
 P.S This was not individual work, I worked together with a good friend of mine towards completing this university course that required teams of 2 people. 
